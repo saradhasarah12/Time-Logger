@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Logger</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="head">Time Logger</h1>
+        <div id="input-div">
+            <input type="text" class="task" id="task" placeholder="Task"> 
+            <br> 
+            <input type="text" class="desc" id="desc" placeholder="Description">
+            <br>
+            <div id="timer-container">
+                <p id="num">00:00:00</p>
+            </div>
+            <button id="startStop">Start Timer</button>
+        </div>
+        <br>
+        <div>
+            <table id="table">
+                <tr>
+                    <th>Task</th>
+                    <th>Description</th>
+                    <th>Duration</th>            
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
